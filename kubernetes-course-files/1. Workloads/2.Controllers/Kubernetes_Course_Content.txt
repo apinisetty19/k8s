@@ -1,0 +1,28 @@
+Kubernetes Architecture.
+Kubernetes Cluster instllation.
+Namespaces
+Pods
+Services
+Replicasets
+Deployments
+DaemonSets
+StatefulSets
+Jobs
+CronJobs
+ConfigMaps & Secrets
+Ingress Loadbalancing
+Persistant Volumes
+Requests and Limits
+Readiness and Liveness probes
+RBAC (Role Based Access Control)
+Kubernetes Monitoring with Promethus and grafana
+Kubernetes Cluster Logging with ELK
+Kubernetes Cluster setup with AWS EKS
+Kubernetes Cluster setup with GCP
+Other Tools:
+        Kubernetes Dashboard
+        Prometheus 
+        grafana
+        elasticSearch
+        Kibana
+        Rancher
