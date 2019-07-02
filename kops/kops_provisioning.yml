@@ -17,12 +17,12 @@ Parameters:
   kopsS3BcuketName:
     Type: String
     Description: Kops S3 Bucket Name
-    Default: kops-production-prasad
+    Default: kops-production-anitha
   
   kopsBootStrapInstanceAMI:
     Type: String
     Description: Kops Bootstrap Instance AMI ID
-    Default: ami-0b99c7725b9484f9e
+    Default: ami-035b3c7efe6d061d5
 
   kopsBootstrapInstanceType:
     Type: String
@@ -53,7 +53,7 @@ Parameters:
   rancherInstanceAMI:
     Type: String
     Description: Kops Bootstrap Instance AMI ID
-    Default: ami-0d2692b6acea72ee6
+    Default: ami-035b3c7efe6d061d5
 
   rancherInstanceType:
     Type: String
@@ -161,7 +161,7 @@ Resources:
             chmod +x ./kubectl
             sudo mv ./kubectl /usr/local/bin/kubectl
             export NAME=myfirstcluster.k8s.local
-            export KOPS_STATE_STORE=s3://kops-production-prasad
+            export KOPS_STATE_STORE=s3://kops-production-anitha
 
 
 
